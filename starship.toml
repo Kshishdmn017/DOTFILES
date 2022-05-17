@@ -1,0 +1,38 @@
+[character]
+error_symbol = " [✖](bold red) "
+success_symbol = " [➤](bold red)"
+
+[directory]
+truncation_length = 5
+style = "bold italic white"
+format = "[$path]($style)[$lock_symbol]($lock_style) "
+
+[git_branch]
+format = "[on](bold red) [$branch]($style) "
+style = "bold yellow"
+
+[git_commit]
+commit_hash_length = 8
+style = "bold white"
+
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style) "
+trim_at = "-"
+style = "bold dimmed green"
+disabled =false 
+
+[python]
+format = "[$symbol$version]($style) "
+style = "bold green"
+
+[rust]
+format = "[$symbol$version]($style) "
+style = "bold green"
+
+[username]
+format = " [$user]($style)@"
+style_user = "bold dimmed blue"
+show_always = true
+
